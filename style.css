@@ -293,5 +293,172 @@ footer {
 
 /* 1 */
 /* 2 */
+.btn-outline {
+    border: 2px solid #4CAF50;
+    color: #4CAF50;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
 /* 2 */
+/* 3 */
+.btn-rounded {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+}
+
+/* 3 */
+/* 4 */
+.btn-icon {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-icon i {
+    margin-right: 5px;
+}
+
+/* 4 */
+/* 5 */
+.btn-gradient {
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+}
+
+/* 5 */
+/* 6 */
+.btn-hover-anim {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-hover-anim:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* 6 */
+/* 7 */
+.btn-block {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+}
+
+/* 7 */
+/* 8 */
+.btn-disabled {
+    background-color: #ccc;
+    color: #6c6c6c;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: not-allowed;
+    border: none;
+}
+
+/* 8 */
+/* 9 */
+.btn-ghost {
+    color: #4CAF50;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btn-ghost:hover {
+    transform: scale(1.1);
+}
+
+/* 9 */
+/* 10 */
+.btn-fab {
+    background-color: #4CAF50;
+    color: white;
+    width: 56px;
+    height: 56px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.btn-fab i {
+    line-height: 56px;
+}
+
+.btn-fab:hover {
+    transform: scale(1.1);
+}
+
+/* 10 */
 /* ! Butonlar */
