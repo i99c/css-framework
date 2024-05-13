@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-xs,
+.col-sm,
+.col-md,
+.col-lg {
+    padding: 0 15px;
+}
+
+/* Extra small screens (less than 576px) */
+.col-xs {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+/* Small screens (576px and up) */
+@media (min-width: 576px) {
+    .col-sm {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+/* Medium screens (768px and up) */
+@media (min-width: 768px) {
+    .col-md {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+}
+
+/* Large screens (992px and up) */
+@media (min-width: 992px) {
+    .col-lg {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+/* Add some background colors and borders for visualization */
+.col-xs,
+.col-sm,
+.col-md,
+.col-lg {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
